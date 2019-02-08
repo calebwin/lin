@@ -1,10 +1,6 @@
 # lin
 lin is a [Rosette](http://emina.github.io/rosette/)-based DSL for linear programming. Here's an example...
 ```racket
-#lang s-exp rosette
-
-(require "./lin.rkt")
-
 ; declare variables
 (def desirability)
 (def supply)
@@ -29,3 +25,4 @@ lin is a [Rosette](http://emina.github.io/rosette/)-based DSL for linear program
 ; solution
 (get price)
 ```
+lin compiles your code to Rosette code which applies one of [a variety of solvers](https://docs.racket-lang.org/rosette-guide/sec_solvers-and-solutions.html#%28def._%28%28lib._rosette%2Fquery%2Fcore..rkt%29._current-solver%29%29) that can compute satisfiable solutions.
