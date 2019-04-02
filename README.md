@@ -1,5 +1,5 @@
 # lin
-lin is a [Rosette](http://emina.github.io/rosette/)-based DSL for linear programming. Here's an example...
+lin is a minimalist [Rosette](http://emina.github.io/rosette/)-based DSL for linear programming. Here's an example...
 ```racket
 ; declare variables
 (def desirability)
